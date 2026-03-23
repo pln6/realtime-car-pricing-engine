@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+build/
+dist/
+
+# Data
+data/*
+!data/.gitkeep
+
+*.csv
+*.parquet
+*.sql
+*.sqlite
+
+# ML
+*.pickle
+*.joblib
+*.pth
+*.h5
+*.model
+mlruns/
+outputs/
+
+# Logs & Monitoring
+*.log
+.evidently_reports/
+html_reports/
+
+# Security
+.env
+.secrets
+auth.json
+
+# IDE 
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Docker
+pgdata/
